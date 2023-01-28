@@ -31,7 +31,8 @@
     flex-direction: column;
 }
 
-#services .box{
+#services .box img{
+    height: 118px;
     
 }
 
