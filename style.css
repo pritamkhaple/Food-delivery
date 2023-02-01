@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* CSS Variables */
 
 
@@ -33,7 +37,7 @@
     position: absolute;
     top:0px;
     left:0px;
-    height: 100%;
+    height: 80%;
     width:100%;
     z-index: -1;
     opacity: 0.3;
@@ -153,6 +157,24 @@ opacity: 0.7;
     width: 94px;
     height: 91px;
     
+}
+
+/* About us */
+#about{
+    position: relative;
+    /* text-align: center; */
+    height: 220px;
+}
+
+#about::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url('/img/about.jpg') no-repeat center center/cover;
+    text-align: center;
 }
 
 /* contact section */
