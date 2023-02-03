@@ -9,6 +9,7 @@
     padding-bottom: 8px;
 }
 
+
 /* Home section */
 #home{
     height: 370px;
@@ -36,10 +37,6 @@
     
 }
 
-
-
-
-
 /* Clients Section */
 #clients{
     flex-wrap: wrap;
@@ -49,6 +46,11 @@
     width: 62px;
     padding: 2px 1px;
     height : auto;
+}
+
+/* About us */
+#about p{
+    font-size: 1rem;
 }
 
 /* Contact us section */
