@@ -109,12 +109,19 @@ html{
 
 }
 
+#services .box:hover{
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+
 #services .box{
     border: 5px solid brown;
     padding: 34px;
     margin: 3px 6px;
     border-radius: 29px;
     background-color: rgb(238, 228, 228);
+    cursor: pointer;
     
 }
 
@@ -250,8 +257,23 @@ footer{
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: black;
+    color: gold;
+}
+
 .h-primary .center{
     font-size: 3.3rem;
     text-align: center;
 }
 
+.ftr a{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.ftr a:hover{
+    font-size: 1.5rem;
+    color: gold;
+    border: 1px solid red;
+}
